@@ -3,7 +3,7 @@
     A([Start])--> B([Computer generates random number within a specified range])
     B --> C([User guesses a number])
     C --> D {Is guess out of the specified number range/ non-numeric?}
-    D -- Yes --> E ([Guess is invalid, user must guess a new number)]
+    D -- Yes --> E ([Guess is invalid, user must guess a new number])
     E --> C
     D -- No --> F {Is the user correct?}
     F -- Yes --> G([User wins])
